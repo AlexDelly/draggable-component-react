@@ -2,7 +2,7 @@ import Draggable from './Draggable'
 
 function App() {
 
-  const element = <input type="text" placeholder="hello world"/>
+  const element = <p>Hello world</p>
 
   return (
     <Draggable childElement={element}/>
